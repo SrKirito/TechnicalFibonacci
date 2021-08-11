@@ -4,7 +4,7 @@ from datetime import time
 
 start_time = datetime.now()
 
-nterms = int(input("Wie viele Begriffe? "))
+nterms = int(input("What's the initial term? "))
 
 nterms += 1
 
@@ -12,12 +12,12 @@ n1, n2 = 0, 1
 count = 0
 
 if nterms <= 0:
-   print("Bitte geben Sie eine positive Zahl ein")
+   print("Give a valid positive number")
 elif nterms == 1:
-   print("Fibonacci-Folge > ",nterms,":")
+   print("Fibonacci Sequence > ",nterms,":")
    print(n1)
 else:
-   print("Fibonacci-Folge:")
+   print("Fibonacci Sequence:")
    while count < nterms:
        print("{} ".format(n1))
        print("")
@@ -35,5 +35,5 @@ def millis():
 
 nterms -= 1
 
-print("\nAnfangsterm der Fibonacci-Folge:\t\t\t\t\t", nterms)
-print("Berechnung Dauer: \t\t\t\t\t\t\t {}\t\t\t\t\t       (Sekunden/Millisekunden)".format(millis()))
+print("\nInitial term of Fibonacci Sequence:\t\t\t\t\t", nterms)
+print("Calculation duration: \t\t\t\t\t\t\t {}\t\t\t\t\t       (Seconds/Milliseconds)".format(millis()))
