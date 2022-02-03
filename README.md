@@ -4,6 +4,6 @@ A Fibonacci function writen in Python that shows the initial term and the time e
 
 Use to do your Long Cpu Single Core Stress... or to do your craaazy searchs for the longest Fibonacci number =D
 
-No License, No everything the only thing that i want, is the credits!
+No License, No everything, Intelectual Property doens't exist.
 
 Feel Free to do EVERYTHING THAT YOU WANT =D
